@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-git" class="navigator-link">
+              <span class="suite-name border-passed">git</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-git" class="navigator-link ">
+                    <span>C:\Users\wasee\eclipse-workspace\git\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-git" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-git" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-git" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-git" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-git" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-git" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-git" class="hide-methods passed suite-git"> (hide)</a> <!-- hide-methods passed suite-git -->
+                      <a href="#" panel-name="suite-git" class="show-methods passed suite-git"> (show)</a> <!-- show-methods passed suite-git -->
+                    </span>
+                    <div class="method-list-content passed suite-git">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AlumniCases" class="method navigator-link" hash-for-method="AlumniPageConfirmation">AlumniPageConfirmation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.PaymentCases" class="method navigator-link" hash-for-method="OnlinePayment(txn005, 20000, po5, Robert, Dawney, 232323, robert@gmail.com, 9860223762, area5, colony5, Chennai, T...)">OnlinePayment(txn005, 20000, po5, Robert, Dawney, 232323, robert@gmail.com, 9860223762, area5, colony5, Chennai, T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.PaymentCases" class="method navigator-link" hash-for-method="OnlinePayment(txn002, 5000, po2, Jessica, Marie, 134567, jessica@gmail.com, 8234567890, area2, colony2, Bengaluru,...)">OnlinePayment(txn002, 5000, po2, Jessica, Marie, 134567, jessica@gmail.com, 8234567890, area2, colony2, Bengaluru,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.PaymentCases" class="method navigator-link" hash-for-method="OnlinePayment(txn001, 1000, po1, Jhon, Cena, 123456, jhon@gmail.com, 8234567891, area1, colony1, Delhi, Delhi, ind...)">OnlinePayment(txn001, 1000, po1, Jhon, Cena, 123456, jhon@gmail.com, 8234567891, area1, colony1, Delhi, Delhi, ind...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.PaymentCases" class="method navigator-link" hash-for-method="OnlinePayment(txn003, 8000, po3, Tom, Holland, 767676, tom@gmail.com, 7987098709, area3, colony3, Mumbai, Maharast...)">OnlinePayment(txn003, 8000, po3, Tom, Holland, 767676, tom@gmail.com, 7987098709, area3, colony3, Mumbai, Maharast...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.PaymentCases" class="method navigator-link" hash-for-method="OnlinePayment(txn004, 10000, po4, Chris, Hemsworth, 900990, chris@gmail.com, 9602968230, area4, colony4, Bhopal, M...)">OnlinePayment(txn004, 10000, po4, Chris, Hemsworth, 900990, chris@gmail.com, 9602968230, area4, colony4, Bhopal, M...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.SignInCases" class="method navigator-link" hash-for-method="staffSignin(Jhon, jhon123)">staffSignin(Jhon, jhon123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.SignInCases" class="method navigator-link" hash-for-method="staffSignin(Chris, chris123)">staffSignin(Chris, chris123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.SignInCases" class="method navigator-link" hash-for-method="staffSignin(Jessica, jessica123)">staffSignin(Jessica, jessica123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.SignInCases" class="method navigator-link" hash-for-method="staffSignin(Robert, robert123)">staffSignin(Robert, robert123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.SignInCases" class="method navigator-link" hash-for-method="staffSignin(Tom , tom123)">staffSignin(Tom , tom123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student17, M.Sc Information Technology, 9876546588, 9876546588, linkindin, udaipur)">studentAdmission(student17, M.Sc Information Technology, 9876546588, 9876546588, linkindin, udaipur)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student4, BBA CA, 8233415677, 8233415677, linkindin, bengaluru)">studentAdmission(student4, BBA CA, 8233415677, 8233415677, linkindin, bengaluru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student11, BA English, 7194272412, 7194272412, xyz, mandya)">studentAdmission(student11, BA English, 7194272412, 7194272412, xyz, mandya)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student16, M.COM IB, 8721464235, 8721464235, reference, kolkatta)">studentAdmission(student16, M.COM IB, 8721464235, 8721464235, reference, kolkatta)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student8, B.Sc Multimedia and Web Technology, 7851435471, 7851435471, naukri, manglore)">studentAdmission(student8, B.Sc Multimedia and Web Technology, 7851435471, 7851435471, naukri, manglore)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student15, M.Sc Biotechnology, 8946453321, 8946453321, naukri, mumbai)">studentAdmission(student15, M.Sc Biotechnology, 8946453321, 8946453321, naukri, mumbai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student12, B.Sc Catering Science and Hotel Management, 1987498646, 1987498646, facebook, delhi)">studentAdmission(student12, B.Sc Catering Science and Hotel Management, 1987498646, 1987498646, facebook, delhi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student14, B.Sc Psychology, 5412498740, 5412498740, linkindin, indore)">studentAdmission(student14, B.Sc Psychology, 5412498740, 5412498740, linkindin, indore)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student18, MA English Literature, 8777765463, 8777765463, naukri, hydrabad)">studentAdmission(student18, MA English Literature, 8777765463, 8777765463, naukri, hydrabad)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student10, B.Sc Mathematics, 5679784309, 5679784309, student, gadag)">studentAdmission(student10, B.Sc Mathematics, 5679784309, 5679784309, student, gadag)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student3, B.Com PA, 9314567805, 9314567805, instagram, hassan)">studentAdmission(student3, B.Com PA, 9314567805, 9314567805, instagram, hassan)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student7, BCA, 6536289274, 6536289274, student, ooty)">studentAdmission(student7, BCA, 6536289274, 6536289274, student, ooty)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student20, M.COM (CA), 8896103266, 8896103266, student, lucknow)">studentAdmission(student20, M.COM (CA), 8896103266, 8896103266, student, lucknow)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student19, M.Sc Mathematics, 7889977864, 7889977864, reference, kerala)">studentAdmission(student19, M.Sc Mathematics, 7889977864, 7889977864, reference, kerala)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student5, B.Sc Computer Science, 7001324334, 7001324334, naukri, belguam)">studentAdmission(student5, B.Sc Computer Science, 7001324334, 7001324334, naukri, belguam)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student9, B.Sc Biotechnology, 9873429364, 9873429364, reference, kolar)">studentAdmission(student9, B.Sc Biotechnology, 9873429364, 9873429364, reference, kolar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student2, B.Com CA, 9234567801, 9234567801, facebook, chennai)">studentAdmission(student2, B.Com CA, 9234567801, 9234567801, facebook, chennai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student1, B.Com, 9123456780, 9123456780, xyz, bengaluru)">studentAdmission(student1, B.Com, 9123456780, 9123456780, xyz, bengaluru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student13, B.Sc Electronic Communication &amp; System, 9718745421, 9718745421, instagram, bopal)">studentAdmission(student13, B.Sc Electronic Communication & System, 9718745421, 9718745421, instagram, bopal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student21, M.COM IB, 9090898765, 9090898765, website, patna)">studentAdmission(student21, M.COM IB, 9090898765, 9090898765, website, patna)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-git" title="com.Cases.AdmissionCases" class="method navigator-link" hash-for-method="studentAdmission(student6, B.Sc Information Technology, 7899453425, 7899453425, reference, mysore)">studentAdmission(student6, B.Sc Information Technology, 7899453425, 7899453425, reference, mysore)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-git -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-git" class="panel git">
+          <div class="suite-git-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Cases.PaymentCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnlinePayment(txn005, 20000, po5, Robert, Dawney, 232323, robert@gmail.com, 9860223762, area5, colony5, Chennai, T...)">
+                  </a> <!-- OnlinePayment(txn005, 20000, po5, Robert, Dawney, 232323, robert@gmail.com, 9860223762, area5, colony5, Chennai, T...) -->
+                  <span class="method-name">OnlinePayment</span>
+                  <span class="parameters">(txn005,20000,po5,Robert,Dawney,232323,robert@gmail.com,9860223762,area5,colony5,Chennai,Tamil Nadu,india,ee)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnlinePayment(txn002, 5000, po2, Jessica, Marie, 134567, jessica@gmail.com, 8234567890, area2, colony2, Bengaluru,...)">
+                  </a> <!-- OnlinePayment(txn002, 5000, po2, Jessica, Marie, 134567, jessica@gmail.com, 8234567890, area2, colony2, Bengaluru,...) -->
+                  <span class="method-name">OnlinePayment</span>
+                  <span class="parameters">(txn002,5000,po2,Jessica,Marie,134567,jessica@gmail.com,8234567890,area2,colony2,Bengaluru,Karnatake,india,bb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnlinePayment(txn001, 1000, po1, Jhon, Cena, 123456, jhon@gmail.com, 8234567891, area1, colony1, Delhi, Delhi, ind...)">
+                  </a> <!-- OnlinePayment(txn001, 1000, po1, Jhon, Cena, 123456, jhon@gmail.com, 8234567891, area1, colony1, Delhi, Delhi, ind...) -->
+                  <span class="method-name">OnlinePayment</span>
+                  <span class="parameters">(txn001,1000,po1,Jhon,Cena,123456,jhon@gmail.com,8234567891,area1,colony1,Delhi,Delhi,india,aa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnlinePayment(txn003, 8000, po3, Tom, Holland, 767676, tom@gmail.com, 7987098709, area3, colony3, Mumbai, Maharast...)">
+                  </a> <!-- OnlinePayment(txn003, 8000, po3, Tom, Holland, 767676, tom@gmail.com, 7987098709, area3, colony3, Mumbai, Maharast...) -->
+                  <span class="method-name">OnlinePayment</span>
+                  <span class="parameters">(txn003,8000,po3,Tom,Holland,767676,tom@gmail.com,7987098709,area3,colony3,Mumbai,Maharastra,india,cc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnlinePayment(txn004, 10000, po4, Chris, Hemsworth, 900990, chris@gmail.com, 9602968230, area4, colony4, Bhopal, M...)">
+                  </a> <!-- OnlinePayment(txn004, 10000, po4, Chris, Hemsworth, 900990, chris@gmail.com, 9602968230, area4, colony4, Bhopal, M...) -->
+                  <span class="method-name">OnlinePayment</span>
+                  <span class="parameters">(txn004,10000,po4,Chris,Hemsworth,900990,chris@gmail.com,9602968230,area4,colony4,Bhopal,Madhya Pradesh,india,dd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-git-class-passed -->
+          <div class="suite-git-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Cases.AdmissionCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student17, M.Sc Information Technology, 9876546588, 9876546588, linkindin, udaipur)">
+                  </a> <!-- studentAdmission(student17, M.Sc Information Technology, 9876546588, 9876546588, linkindin, udaipur) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student17,M.Sc Information Technology,9876546588,9876546588,linkindin,udaipur)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student4, BBA CA, 8233415677, 8233415677, linkindin, bengaluru)">
+                  </a> <!-- studentAdmission(student4, BBA CA, 8233415677, 8233415677, linkindin, bengaluru) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student4,BBA CA,8233415677,8233415677,linkindin,bengaluru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student11, BA English, 7194272412, 7194272412, xyz, mandya)">
+                  </a> <!-- studentAdmission(student11, BA English, 7194272412, 7194272412, xyz, mandya) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student11,BA English,7194272412,7194272412,xyz,mandya)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student16, M.COM IB, 8721464235, 8721464235, reference, kolkatta)">
+                  </a> <!-- studentAdmission(student16, M.COM IB, 8721464235, 8721464235, reference, kolkatta) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student16,M.COM IB,8721464235,8721464235,reference,kolkatta)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student8, B.Sc Multimedia and Web Technology, 7851435471, 7851435471, naukri, manglore)">
+                  </a> <!-- studentAdmission(student8, B.Sc Multimedia and Web Technology, 7851435471, 7851435471, naukri, manglore) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student8,B.Sc Multimedia and Web Technology,7851435471,7851435471,naukri,manglore)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student15, M.Sc Biotechnology, 8946453321, 8946453321, naukri, mumbai)">
+                  </a> <!-- studentAdmission(student15, M.Sc Biotechnology, 8946453321, 8946453321, naukri, mumbai) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student15,M.Sc Biotechnology,8946453321,8946453321,naukri,mumbai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student12, B.Sc Catering Science and Hotel Management, 1987498646, 1987498646, facebook, delhi)">
+                  </a> <!-- studentAdmission(student12, B.Sc Catering Science and Hotel Management, 1987498646, 1987498646, facebook, delhi) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student12,B.Sc Catering Science and Hotel Management,1987498646,1987498646,facebook,delhi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student14, B.Sc Psychology, 5412498740, 5412498740, linkindin, indore)">
+                  </a> <!-- studentAdmission(student14, B.Sc Psychology, 5412498740, 5412498740, linkindin, indore) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student14,B.Sc Psychology,5412498740,5412498740,linkindin,indore)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student18, MA English Literature, 8777765463, 8777765463, naukri, hydrabad)">
+                  </a> <!-- studentAdmission(student18, MA English Literature, 8777765463, 8777765463, naukri, hydrabad) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student18,MA English Literature,8777765463,8777765463,naukri,hydrabad)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student10, B.Sc Mathematics, 5679784309, 5679784309, student, gadag)">
+                  </a> <!-- studentAdmission(student10, B.Sc Mathematics, 5679784309, 5679784309, student, gadag) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student10,B.Sc Mathematics,5679784309,5679784309,student,gadag)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student3, B.Com PA, 9314567805, 9314567805, instagram, hassan)">
+                  </a> <!-- studentAdmission(student3, B.Com PA, 9314567805, 9314567805, instagram, hassan) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student3,B.Com PA,9314567805,9314567805,instagram,hassan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student7, BCA, 6536289274, 6536289274, student, ooty)">
+                  </a> <!-- studentAdmission(student7, BCA, 6536289274, 6536289274, student, ooty) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student7,BCA,6536289274,6536289274,student,ooty)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student20, M.COM (CA), 8896103266, 8896103266, student, lucknow)">
+                  </a> <!-- studentAdmission(student20, M.COM (CA), 8896103266, 8896103266, student, lucknow) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student20,M.COM (CA),8896103266,8896103266,student,lucknow)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student19, M.Sc Mathematics, 7889977864, 7889977864, reference, kerala)">
+                  </a> <!-- studentAdmission(student19, M.Sc Mathematics, 7889977864, 7889977864, reference, kerala) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student19,M.Sc Mathematics,7889977864,7889977864,reference,kerala)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student5, B.Sc Computer Science, 7001324334, 7001324334, naukri, belguam)">
+                  </a> <!-- studentAdmission(student5, B.Sc Computer Science, 7001324334, 7001324334, naukri, belguam) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student5,B.Sc Computer Science,7001324334,7001324334,naukri,belguam)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student9, B.Sc Biotechnology, 9873429364, 9873429364, reference, kolar)">
+                  </a> <!-- studentAdmission(student9, B.Sc Biotechnology, 9873429364, 9873429364, reference, kolar) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student9,B.Sc Biotechnology,9873429364,9873429364,reference,kolar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student2, B.Com CA, 9234567801, 9234567801, facebook, chennai)">
+                  </a> <!-- studentAdmission(student2, B.Com CA, 9234567801, 9234567801, facebook, chennai) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student2,B.Com CA,9234567801,9234567801,facebook,chennai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student1, B.Com, 9123456780, 9123456780, xyz, bengaluru)">
+                  </a> <!-- studentAdmission(student1, B.Com, 9123456780, 9123456780, xyz, bengaluru) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student1,B.Com,9123456780,9123456780,xyz,bengaluru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student13, B.Sc Electronic Communication &amp; System, 9718745421, 9718745421, instagram, bopal)">
+                  </a> <!-- studentAdmission(student13, B.Sc Electronic Communication & System, 9718745421, 9718745421, instagram, bopal) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student13,B.Sc Electronic Communication & System,9718745421,9718745421,instagram,bopal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student21, M.COM IB, 9090898765, 9090898765, website, patna)">
+                  </a> <!-- studentAdmission(student21, M.COM IB, 9090898765, 9090898765, website, patna) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student21,M.COM IB,9090898765,9090898765,website,patna)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentAdmission(student6, B.Sc Information Technology, 7899453425, 7899453425, reference, mysore)">
+                  </a> <!-- studentAdmission(student6, B.Sc Information Technology, 7899453425, 7899453425, reference, mysore) -->
+                  <span class="method-name">studentAdmission</span>
+                  <span class="parameters">(student6,B.Sc Information Technology,7899453425,7899453425,reference,mysore)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-git-class-passed -->
+          <div class="suite-git-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Cases.SignInCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="staffSignin(Jhon, jhon123)">
+                  </a> <!-- staffSignin(Jhon, jhon123) -->
+                  <span class="method-name">staffSignin</span>
+                  <span class="parameters">(Jhon,jhon123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="staffSignin(Chris, chris123)">
+                  </a> <!-- staffSignin(Chris, chris123) -->
+                  <span class="method-name">staffSignin</span>
+                  <span class="parameters">(Chris,chris123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="staffSignin(Jessica, jessica123)">
+                  </a> <!-- staffSignin(Jessica, jessica123) -->
+                  <span class="method-name">staffSignin</span>
+                  <span class="parameters">(Jessica,jessica123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="staffSignin(Robert, robert123)">
+                  </a> <!-- staffSignin(Robert, robert123) -->
+                  <span class="method-name">staffSignin</span>
+                  <span class="parameters">(Robert,robert123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="staffSignin(Tom , tom123)">
+                  </a> <!-- staffSignin(Tom , tom123) -->
+                  <span class="method-name">staffSignin</span>
+                  <span class="parameters">(Tom ,tom123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-git-class-passed -->
+          <div class="suite-git-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Cases.AlumniCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AlumniPageConfirmation">
+                  </a> <!-- AlumniPageConfirmation -->
+                  <span class="method-name">AlumniPageConfirmation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-git-class-passed -->
+        </div> <!-- panel git -->
+        <div panel-name="test-xml-git" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\wasee\eclipse-workspace\git\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;git&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.Listeners.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;AlumniPage_Confirmation&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Cases.AlumniCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AlumniPage_Confirmation --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Student_Admission&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Cases.AdmissionCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Student_Admission --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Student_SignIn&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Cases.SignInCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Student_SignIn --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Online_Payment&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Cases.PaymentCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Online_Payment --&gt;
+&lt;/suite&gt; &lt;!-- git --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-git" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for git</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AlumniPage_Confirmation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Student_Admission (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Student_SignIn (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Online_Payment (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-git" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for git</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-git" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for git</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_git');
+function tableData_git() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'staffSignin')
+data.setCell(0, 2, 'com.Cases.SignInCases')
+data.setCell(0, 3, 41031);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AlumniPageConfirmation')
+data.setCell(1, 2, 'com.Cases.AlumniCases')
+data.setCell(1, 3, 30008);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'studentAdmission')
+data.setCell(2, 2, 'com.Cases.AdmissionCases')
+data.setCell(2, 3, 26502);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'OnlinePayment')
+data.setCell(3, 2, 'com.Cases.PaymentCases')
+data.setCell(3, 3, 22622);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'OnlinePayment')
+data.setCell(4, 2, 'com.Cases.PaymentCases')
+data.setCell(4, 3, 7490);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'OnlinePayment')
+data.setCell(5, 2, 'com.Cases.PaymentCases')
+data.setCell(5, 3, 4261);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'OnlinePayment')
+data.setCell(6, 2, 'com.Cases.PaymentCases')
+data.setCell(6, 3, 3915);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'OnlinePayment')
+data.setCell(7, 2, 'com.Cases.PaymentCases')
+data.setCell(7, 3, 3596);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'studentAdmission')
+data.setCell(8, 2, 'com.Cases.AdmissionCases')
+data.setCell(8, 3, 2953);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'studentAdmission')
+data.setCell(9, 2, 'com.Cases.AdmissionCases')
+data.setCell(9, 3, 2691);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'studentAdmission')
+data.setCell(10, 2, 'com.Cases.AdmissionCases')
+data.setCell(10, 3, 2658);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'studentAdmission')
+data.setCell(11, 2, 'com.Cases.AdmissionCases')
+data.setCell(11, 3, 2622);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'studentAdmission')
+data.setCell(12, 2, 'com.Cases.AdmissionCases')
+data.setCell(12, 3, 2545);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'studentAdmission')
+data.setCell(13, 2, 'com.Cases.AdmissionCases')
+data.setCell(13, 3, 2474);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'studentAdmission')
+data.setCell(14, 2, 'com.Cases.AdmissionCases')
+data.setCell(14, 3, 2435);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'studentAdmission')
+data.setCell(15, 2, 'com.Cases.AdmissionCases')
+data.setCell(15, 3, 2100);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'studentAdmission')
+data.setCell(16, 2, 'com.Cases.AdmissionCases')
+data.setCell(16, 3, 2088);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'studentAdmission')
+data.setCell(17, 2, 'com.Cases.AdmissionCases')
+data.setCell(17, 3, 1995);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'studentAdmission')
+data.setCell(18, 2, 'com.Cases.AdmissionCases')
+data.setCell(18, 3, 1991);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'studentAdmission')
+data.setCell(19, 2, 'com.Cases.AdmissionCases')
+data.setCell(19, 3, 1950);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'studentAdmission')
+data.setCell(20, 2, 'com.Cases.AdmissionCases')
+data.setCell(20, 3, 1923);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'studentAdmission')
+data.setCell(21, 2, 'com.Cases.AdmissionCases')
+data.setCell(21, 3, 1916);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'studentAdmission')
+data.setCell(22, 2, 'com.Cases.AdmissionCases')
+data.setCell(22, 3, 1868);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'studentAdmission')
+data.setCell(23, 2, 'com.Cases.AdmissionCases')
+data.setCell(23, 3, 1843);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'studentAdmission')
+data.setCell(24, 2, 'com.Cases.AdmissionCases')
+data.setCell(24, 3, 1813);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'studentAdmission')
+data.setCell(25, 2, 'com.Cases.AdmissionCases')
+data.setCell(25, 3, 1791);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'studentAdmission')
+data.setCell(26, 2, 'com.Cases.AdmissionCases')
+data.setCell(26, 3, 1714);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'studentAdmission')
+data.setCell(27, 2, 'com.Cases.AdmissionCases')
+data.setCell(27, 3, 1632);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'staffSignin')
+data.setCell(28, 2, 'com.Cases.SignInCases')
+data.setCell(28, 3, 1304);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'staffSignin')
+data.setCell(29, 2, 'com.Cases.SignInCases')
+data.setCell(29, 3, 1080);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'staffSignin')
+data.setCell(30, 2, 'com.Cases.SignInCases')
+data.setCell(30, 3, 1029);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'staffSignin')
+data.setCell(31, 2, 'com.Cases.SignInCases')
+data.setCell(31, 3, 985);
+window.suiteTableData['git']= { tableData: data, tableDiv: 'times-div-git'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-git">
+              </div> <!-- times-div-git -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-git" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for git</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-git" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-git" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.AlumniCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.AdmissionCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.AlumniCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AlumniPageConfirmation</span>
+                <span class="method-start">3375 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.AdmissionCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student1, B.Com, 9123456780, 9123456780, xyz, bengaluru)</span>
+                <span class="method-start">11090 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.AlumniCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">33402 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.SignInCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">34254 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">staffSignin(Jhon, jhon123)</span>
+                <span class="method-start">35587 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.AdmissionCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student2, B.Com CA, 9234567801, 9234567801, facebook, chennai)</span>
+                <span class="method-start">37594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student3, B.Com PA, 9314567805, 9314567805, instagram, hassan)</span>
+                <span class="method-start">40031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student4, BBA CA, 8233415677, 8233415677, linkindin, bengaluru)</span>
+                <span class="method-start">42657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student5, B.Sc Computer Science, 7001324334, 7001324334, naukri, belguam)</span>
+                <span class="method-start">45352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student6, B.Sc Information Technology, 7899453425, 7899453425, reference, mysore)</span>
+                <span class="method-start">47830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student7, BCA, 6536289274, 6536289274, student, ooty)</span>
+                <span class="method-start">49753 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student8, B.Sc Multimedia and Web Technology, 7851435471, 7851435471, naukri, manglore)</span>
+                <span class="method-start">52710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student9, B.Sc Biotechnology, 9873429364, 9873429364, reference, kolar)</span>
+                <span class="method-start">54553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student10, B.Sc Mathematics, 5679784309, 5679784309, student, gadag)</span>
+                <span class="method-start">56271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student11, BA English, 7194272412, 7194272412, xyz, mandya)</span>
+                <span class="method-start">58266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student12, B.Sc Catering Science and Hotel Management, 1987498646, 1987498646, facebook, delhi)</span>
+                <span class="method-start">60186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student13, B.Sc Electronic Communication & System, 9718745421, 9718745421, instagram, bopal)</span>
+                <span class="method-start">61999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student14, B.Sc Psychology, 5412498740, 5412498740, linkindin, indore)</span>
+                <span class="method-start">64544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student15, M.Sc Biotechnology, 8946453321, 8946453321, naukri, mumbai)</span>
+                <span class="method-start">66494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student16, M.COM IB, 8721464235, 8721464235, reference, kolkatta)</span>
+                <span class="method-start">68595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student17, M.Sc Information Technology, 9876546588, 9876546588, linkindin, udaipur)</span>
+                <span class="method-start">70227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student18, MA English Literature, 8777765463, 8777765463, naukri, hydrabad)</span>
+                <span class="method-start">72218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student19, M.Sc Mathematics, 7889977864, 7889977864, reference, kerala)</span>
+                <span class="method-start">74090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student20, M.COM (CA), 8896103266, 8896103266, student, lucknow)</span>
+                <span class="method-start">75881 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.SignInCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">staffSignin(Jessica, jessica123)</span>
+                <span class="method-start">76618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">staffSignin(Tom , tom123)</span>
+                <span class="method-start">77922 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.AdmissionCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">studentAdmission(student21, M.COM IB, 9090898765, 9090898765, website, patna)</span>
+                <span class="method-start">77969 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.SignInCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">staffSignin(Chris, chris123)</span>
+                <span class="method-start">79002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">staffSignin(Robert, robert123)</span>
+                <span class="method-start">79987 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.AdmissionCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">80627 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.SignInCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">81016 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Cases.PaymentCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(edge)</span>
+                <span class="method-start">81252 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">OnlinePayment(txn001, 1000, po1, Jhon, Cena, 123456, jhon@gmail.com, 8234567891, area1, colony1, Delhi, Delhi, ind...)</span>
+                <span class="method-start">86398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OnlinePayment(txn002, 5000, po2, Jessica, Marie, 134567, jessica@gmail.com, 8234567890, area2, colony2, Bengaluru,...)</span>
+                <span class="method-start">109020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OnlinePayment(txn003, 8000, po3, Tom, Holland, 767676, tom@gmail.com, 7987098709, area3, colony3, Mumbai, Maharast...)</span>
+                <span class="method-start">116510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OnlinePayment(txn004, 10000, po4, Chris, Hemsworth, 900990, chris@gmail.com, 9602968230, area4, colony4, Bhopal, M...)</span>
+                <span class="method-start">120771 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OnlinePayment(txn005, 20000, po5, Robert, Dawney, 232323, robert@gmail.com, 9860223762, area5, colony5, Chennai, T...)</span>
+                <span class="method-start">124367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">128282 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

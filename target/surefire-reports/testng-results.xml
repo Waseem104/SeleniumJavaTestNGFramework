@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-04T18:58:10 IST" name="git" finished-at="2024-01-04T19:00:19 IST" duration-ms="128894">
+    <groups>
+    </groups>
+    <test started-at="2024-01-04T18:58:10 IST" name="AlumniPage_Confirmation" finished-at="2024-01-04T18:58:44 IST" duration-ms="33987">
+      <class name="com.Cases.AlumniCases">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Cases.AlumniCases@62010f5c]" started-at="2024-01-04T18:58:10 IST" name="setUp" finished-at="2024-01-04T18:58:13 IST" duration-ms="3364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AlumniPageConfirmation()[pri:0, instance:com.Cases.AlumniCases@62010f5c]" started-at="2024-01-04T18:58:13 IST" name="AlumniPageConfirmation" finished-at="2024-01-04T18:58:43 IST" duration-ms="30008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlumniPageConfirmation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Cases.AlumniCases@62010f5c]" started-at="2024-01-04T18:58:43 IST" name="TearDown" finished-at="2024-01-04T18:58:44 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Cases.AlumniCases -->
+    </test> <!-- AlumniPage_Confirmation -->
+    <test started-at="2024-01-04T18:58:44 IST" name="Student_SignIn" finished-at="2024-01-04T18:59:31 IST" duration-ms="46880">
+      <class name="com.Cases.SignInCases">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Cases.SignInCases@3b96c42e]" started-at="2024-01-04T18:58:44 IST" name="setUp" finished-at="2024-01-04T18:58:45 IST" duration-ms="1286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="staffSignin(java.lang.String,java.lang.String)[pri:0, instance:com.Cases.SignInCases@3b96c42e]" started-at="2024-01-04T18:58:46 IST" name="staffSignin" data-provider="signin_data" finished-at="2024-01-04T18:59:27 IST" duration-ms="41031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jhon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jhon123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staffSignin -->
+        <test-method signature="staffSignin(java.lang.String,java.lang.String)[pri:0, instance:com.Cases.SignInCases@3b96c42e]" started-at="2024-01-04T18:59:27 IST" name="staffSignin" data-provider="signin_data" finished-at="2024-01-04T18:59:28 IST" duration-ms="1304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jessica]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jessica123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staffSignin -->
+        <test-method signature="staffSignin(java.lang.String,java.lang.String)[pri:0, instance:com.Cases.SignInCases@3b96c42e]" started-at="2024-01-04T18:59:28 IST" name="staffSignin" data-provider="signin_data" finished-at="2024-01-04T18:59:29 IST" duration-ms="1080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tom123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staffSignin -->
+        <test-method signature="staffSignin(java.lang.String,java.lang.String)[pri:0, instance:com.Cases.SignInCases@3b96c42e]" started-at="2024-01-04T18:59:29 IST" name="staffSignin" data-provider="signin_data" finished-at="2024-01-04T18:59:30 IST" duration-ms="985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chris123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staffSignin -->
+        <test-method signature="staffSignin(java.lang.String,java.lang.String)[pri:0, instance:com.Cases.SignInCases@3b96c42e]" started-at="2024-01-04T18:59:30 IST" name="staffSignin" data-provider="signin_data" finished-at="2024-01-04T18:59:31 IST" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Robert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[robert123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staffSignin -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Cases.SignInCases@3b96c42e]" started-at="2024-01-04T18:59:31 IST" name="TearDown" finished-at="2024-01-04T18:59:31 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Cases.SignInCases -->
+    </test> <!-- Student_SignIn -->
+    <test started-at="2024-01-04T18:58:10 IST" name="Student_Admission" finished-at="2024-01-04T18:59:34 IST" duration-ms="84012">
+      <class name="com.Cases.AdmissionCases">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:58:10 IST" name="setUp" finished-at="2024-01-04T18:58:20 IST" duration-ms="10142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:58:21 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:58:48 IST" duration-ms="26502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B.Com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9123456780]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9123456780]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bengaluru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:58:48 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:58:50 IST" duration-ms="2435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B.Com CA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9234567801]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9234567801]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:58:50 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:58:53 IST" duration-ms="2622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B.Com PA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9314567805]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9314567805]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[instagram]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hassan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:58:53 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:58:55 IST" duration-ms="2691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BBA CA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8233415677]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8233415677]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[linkindin]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bengaluru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:58:55 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:58:58 IST" duration-ms="2474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B.Sc Computer Science]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7001324334]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7001324334]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[naukri]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[belguam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:58:58 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:00 IST" duration-ms="1923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B.Sc Information Technology]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7899453425]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7899453425]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[reference]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mysore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:00 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:03 IST" duration-ms="2953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BCA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6536289274]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6536289274]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ooty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:03 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:05 IST" duration-ms="1843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B.Sc Multimedia and Web Technology]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7851435471]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7851435471]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[naukri]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[manglore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:05 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:06 IST" duration-ms="1714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B.Sc Biotechnology]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9873429364]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9873429364]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[reference]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[kolar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:06 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:08 IST" duration-ms="1995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B.Sc Mathematics]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5679784309]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5679784309]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[gadag]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:08 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:10 IST" duration-ms="1916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BA English]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7194272412]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7194272412]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mandya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:10 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:12 IST" duration-ms="1813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B.Sc Catering Science and Hotel Management]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1987498646]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1987498646]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:12 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:14 IST" duration-ms="2545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B.Sc Electronic Communication & System]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9718745421]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9718745421]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[instagram]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bopal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:14 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:16 IST" duration-ms="1950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B.Sc Psychology]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5412498740]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5412498740]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[linkindin]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[indore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:16 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:19 IST" duration-ms="2100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M.Sc Biotechnology]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8946453321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8946453321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[naukri]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:19 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:20 IST" duration-ms="1632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M.COM IB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8721464235]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8721464235]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[reference]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[kolkatta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:20 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:22 IST" duration-ms="1991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M.Sc Information Technology]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876546588]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876546588]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[linkindin]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[udaipur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:22 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:24 IST" duration-ms="1868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MA English Literature]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8777765463]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8777765463]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[naukri]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hydrabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:24 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:26 IST" duration-ms="1791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M.Sc Mathematics]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7889977864]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7889977864]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[reference]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[kerala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:26 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:28 IST" duration-ms="2088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M.COM (CA)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8896103266]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8896103266]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[lucknow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method signature="studentAdmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:28 IST" name="studentAdmission" data-provider="Admission_data" finished-at="2024-01-04T18:59:31 IST" duration-ms="2658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M.COM IB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9090898765]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9090898765]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[website]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[patna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAdmission -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Cases.AdmissionCases@265adfad]" started-at="2024-01-04T18:59:31 IST" name="TearDown" finished-at="2024-01-04T18:59:34 IST" duration-ms="3064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Cases.AdmissionCases -->
+    </test> <!-- Student_Admission -->
+    <test started-at="2024-01-04T18:59:31 IST" name="Online_Payment" finished-at="2024-01-04T19:00:19 IST" duration-ms="47326">
+      <class name="com.Cases.PaymentCases">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Cases.PaymentCases@3899782c]" started-at="2024-01-04T18:59:31 IST" name="setUp" finished-at="2024-01-04T18:59:36 IST" duration-ms="5106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OnlinePayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.PaymentCases@3899782c]" started-at="2024-01-04T18:59:36 IST" name="OnlinePayment" data-provider="Payment_data" finished-at="2024-01-04T18:59:59 IST" duration-ms="22622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[txn001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[po1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jhon]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cena]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[jhon@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8234567891]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[area1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[colony1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[aa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlinePayment -->
+        <test-method signature="OnlinePayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.PaymentCases@3899782c]" started-at="2024-01-04T18:59:59 IST" name="OnlinePayment" data-provider="Payment_data" finished-at="2024-01-04T19:00:06 IST" duration-ms="7490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[txn002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[po2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jessica]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Marie]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[134567]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[jessica@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8234567890]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[area2]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[colony2]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Karnatake]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlinePayment -->
+        <test-method signature="OnlinePayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.PaymentCases@3899782c]" started-at="2024-01-04T19:00:06 IST" name="OnlinePayment" data-provider="Payment_data" finished-at="2024-01-04T19:00:11 IST" duration-ms="4261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[txn003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[po3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Holland]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[767676]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[tom@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7987098709]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[area3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[colony3]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Maharastra]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlinePayment -->
+        <test-method signature="OnlinePayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.PaymentCases@3899782c]" started-at="2024-01-04T19:00:11 IST" name="OnlinePayment" data-provider="Payment_data" finished-at="2024-01-04T19:00:14 IST" duration-ms="3596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[txn004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[po4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chris]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hemsworth]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[900990]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[chris@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9602968230]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[area4]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[colony4]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Bhopal]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Madhya Pradesh]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[dd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlinePayment -->
+        <test-method signature="OnlinePayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Cases.PaymentCases@3899782c]" started-at="2024-01-04T19:00:14 IST" name="OnlinePayment" data-provider="Payment_data" finished-at="2024-01-04T19:00:18 IST" duration-ms="3915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[txn005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[po5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Robert]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dawney]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[232323]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[robert@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9860223762]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[area5]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[colony5]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlinePayment -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Cases.PaymentCases@3899782c]" started-at="2024-01-04T19:00:18 IST" name="TearDown" finished-at="2024-01-04T19:00:19 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Cases.PaymentCases -->
+    </test> <!-- Online_Payment -->
+  </suite> <!-- git -->
+</testng-results>

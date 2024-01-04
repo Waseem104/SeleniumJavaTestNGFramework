@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [git]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.Listeners.Listeners"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Student_Admission(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Cases.AdmissionCases">
+        <methods>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+          <include name="studentAdmission" invocation-numbers="15"/>
+        </methods>
+      </class> <!-- com.Cases.AdmissionCases -->
+    </classes>
+  </test> <!-- Student_Admission(failed) -->
+</suite> <!-- Failed suite [git] -->

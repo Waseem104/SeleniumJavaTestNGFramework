@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="129.971" tests="32" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\wasee\eclipse-workspace\git\drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\wasee\eclipse-workspace\git\target\test-classes;C:\Users\wasee\eclipse-workspace\git\target\classes;C:\Users\wasee\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\wasee\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\wasee\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\wasee\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\wasee\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\wasee\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\wasee\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\wasee\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\wasee\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\wasee\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\wasee\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\wasee\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\wasee\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\wasee\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\wasee\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\wasee\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\wasee\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\wasee\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\wasee\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\wasee\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\wasee\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\wasee\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\wasee\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\wasee\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\wasee\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\wasee\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\wasee\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\wasee\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\wasee\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\wasee\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\wasee\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\wasee\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\wasee\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\wasee\.m2\repository\com\codoid\products\fillo\1.22\fillo-1.22.jar;C:\Users\wasee\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\wasee\AppData\Local\Temp\surefire2674736424260415476\surefirebooter-20240104185808804_3.jar C:\Users\wasee\AppData\Local\Temp\surefire2674736424260415476 2024-01-04T18-58-08_595-jvmRun1 surefire-20240104185808804_1tmp surefire_0-20240104185808804_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\wasee\eclipse-workspace\git\target\test-classes;C:\Users\wasee\eclipse-workspace\git\target\classes;C:\Users\wasee\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\wasee\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\wasee\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\wasee\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\wasee\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\wasee\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\wasee\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\wasee\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\wasee\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\wasee\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\wasee\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\wasee\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\wasee\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\wasee\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\wasee\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\wasee\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\wasee\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\wasee\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\wasee\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\wasee\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\wasee\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\wasee\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\wasee\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\wasee\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\wasee\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\wasee\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\wasee\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\wasee\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\wasee\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\wasee\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\wasee\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\wasee\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\wasee\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\wasee\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\wasee\.m2\repository\com\codoid\products\fillo\1.22\fillo-1.22.jar;C:\Users\wasee\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\wasee"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\wasee\eclipse-workspace\git"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\wasee\AppData\Local\Temp\surefire2674736424260415476\surefirebooter-20240104185808804_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="webdriver.edge.driver" value="C:\Users\wasee\eclipse-workspace\git\drivers\msedgedriver.exe"/>
+    <property name="user.name" value="Waseem"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\wasee\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\wasee\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="C:\Users\wasee\eclipse-workspace\git"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\wasee\eclipse-workspace\git\drivers\geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\10.2.0\db_1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-18.0.2\bin;C:\Program Files\dotnet\;C:\apache-maven-3.9.3\bin;C:\Program Files\Git\cmd;C:\Users\wasee\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.4\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.4\bin;C:\Users\wasee\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="AlumniPageConfirmation" classname="com.Cases.AlumniCases" time="22.31">
+    <system-out><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 28077
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+1704374890852	geckodriver	INFO	Listening on 127.0.0.1:26944
+1704374891130	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\wasee\\AppData\\Local\\Temp\\rust_mozprofileq5uXZg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[1704374891.836][WARNING]: This version of ChromeDriver has not been tested with Chrome version 120.
+1704374891883	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704374892646	Marionette	INFO	Listening on port 58939
+Read port: 58939
+Jan 04, 2024 6:58:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Read port: 58939
+1704374894606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 04, 2024 6:58:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 743))
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+1704374921935	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student1, B.Com, 9123456780, 9123456780, xyz, bengaluru](1)" classname="com.Cases.AdmissionCases" time="1.802">
+    <system-out><![CDATA[
+
+
+
+
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 18944
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+[1704374925.838][WARNING]: This version of ChromeDriver has not been tested with Chrome version 120.
+Jan 04, 2024 6:58:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student2, B.Com CA, 9234567801, 9234567801, facebook, chennai](2)" classname="com.Cases.AdmissionCases" time="2.434">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student3, B.Com PA, 9314567805, 9314567805, instagram, hassan](3)" classname="com.Cases.AdmissionCases" time="2.625">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student4, BBA CA, 8233415677, 8233415677, linkindin, bengaluru](4)" classname="com.Cases.AdmissionCases" time="2.693">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student5, B.Sc Computer Science, 7001324334, 7001324334, naukri, belguam](5)" classname="com.Cases.AdmissionCases" time="2.478">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student6, B.Sc Information Technology, 7899453425, 7899453425, reference, mysore](6)" classname="com.Cases.AdmissionCases" time="1.923">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student7, BCA, 6536289274, 6536289274, student, ooty](7)" classname="com.Cases.AdmissionCases" time="2.957">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student8, B.Sc Multimedia and Web Technology, 7851435471, 7851435471, naukri, manglore](8)" classname="com.Cases.AdmissionCases" time="1.843">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student9, B.Sc Biotechnology, 9873429364, 9873429364, reference, kolar](9)" classname="com.Cases.AdmissionCases" time="1.718">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student10, B.Sc Mathematics, 5679784309, 5679784309, student, gadag](10)" classname="com.Cases.AdmissionCases" time="1.995">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student11, BA English, 7194272412, 7194272412, xyz, mandya](11)" classname="com.Cases.AdmissionCases" time="1.92">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student12, B.Sc Catering Science and Hotel Management, 1987498646, 1987498646, facebook, delhi](12)" classname="com.Cases.AdmissionCases" time="1.813">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student13, B.Sc Electronic Communication &amp; System, 9718745421, 9718745421, instagram, bopal](13)" classname="com.Cases.AdmissionCases" time="2.545">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student14, B.Sc Psychology, 5412498740, 5412498740, linkindin, indore](14)" classname="com.Cases.AdmissionCases" time="1.946">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student15, M.Sc Biotechnology, 8946453321, 8946453321, naukri, mumbai](15)" classname="com.Cases.AdmissionCases" time="2.101">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student16, M.COM IB, 8721464235, 8721464235, reference, kolkatta](16)" classname="com.Cases.AdmissionCases" time="1.632">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student17, M.Sc Information Technology, 9876546588, 9876546588, linkindin, udaipur](17)" classname="com.Cases.AdmissionCases" time="1.991">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student18, MA English Literature, 8777765463, 8777765463, naukri, hydrabad](18)" classname="com.Cases.AdmissionCases" time="1.872">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student19, M.Sc Mathematics, 7889977864, 7889977864, reference, kerala](19)" classname="com.Cases.AdmissionCases" time="1.791">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="studentAdmission[student20, M.COM (CA), 8896103266, 8896103266, student, lucknow](20)" classname="com.Cases.AdmissionCases" time="0.047"/>
+  <testcase name="studentAdmission[student21, M.COM IB, 9090898765, 9090898765, website, patna](21)" classname="com.Cases.AdmissionCases" time="0.653">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="staffSignin[Jhon, jhon123](1)" classname="com.Cases.SignInCases" time="0.737">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+]]></system-err>
+  </testcase>
+  <testcase name="staffSignin[Jessica, jessica123](2)" classname="com.Cases.SignInCases" time="1.208">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ksgcollege.com."
+]]></system-err>
+  </testcase>
+  <testcase name="staffSignin[Tom , tom123](3)" classname="com.Cases.SignInCases" time="1.033">
+    <system-err><![CDATA[JavaScript error: https://www.ksgcollege.com/pageload.js, line 31: TypeError: close is null
+JavaScript error: https://www.ksgcollege.com/pageload.js, line 17: TypeError: loginPopup is null
+]]></system-err>
+  </testcase>
+  <testcase name="staffSignin[Chris, chris123](4)" classname="com.Cases.SignInCases" time="0.985"/>
+  <testcase name="staffSignin[Robert, robert123](5)" classname="com.Cases.SignInCases" time="1.029">
+    <system-err><![CDATA[1704374971085	Marionette	INFO	Stopped listening on port 58939
+]]></system-err>
+  </testcase>
+  <testcase name="OnlinePayment[txn001, 1000, po1, Jhon, Cena, 123456, jhon@gmail.com, 8234567891, area1, colony1, Delhi, Delhi, india, aa](1)" classname="com.Cases.PaymentCases" time="22.62">
+    <system-out><![CDATA[
+
+
+
+
+]]></system-out>
+    <system-err><![CDATA[Dynamically enable window occlusion 1
+Starting Microsoft Edge WebDriver 119.0.2151.97 (42f50dec8b7a97d2cd39634128418ccfb4ef77b8) on port 45271
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+[1704374973.429][WARNING]: This version of Microsoft Edge WebDriver has not been tested with Microsoft Edge version 120.
+Jan 04, 2024 6:59:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="OnlinePayment[txn002, 5000, po2, Jessica, Marie, 134567, jessica@gmail.com, 8234567890, area2, colony2, Bengaluru, Karnatake, india, bb](2)" classname="com.Cases.PaymentCases" time="7.49"/>
+  <testcase name="OnlinePayment[txn003, 8000, po3, Tom, Holland, 767676, tom@gmail.com, 7987098709, area3, colony3, Mumbai, Maharastra, india, cc](3)" classname="com.Cases.PaymentCases" time="4.261"/>
+  <testcase name="OnlinePayment[txn004, 10000, po4, Chris, Hemsworth, 900990, chris@gmail.com, 9602968230, area4, colony4, Bhopal, Madhya Pradesh, india, dd](4)" classname="com.Cases.PaymentCases" time="3.596"/>
+  <testcase name="OnlinePayment[txn005, 20000, po5, Robert, Dawney, 232323, robert@gmail.com, 9860223762, area5, colony5, Chennai, Tamil Nadu, india, ee](5)" classname="com.Cases.PaymentCases" time="3.915"/>
+</testsuite>
