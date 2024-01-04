@@ -1,0 +1,13 @@
+# Maven target directory
+/target/
+
+# Eclipse IDE files
+/.project
+/.classpath
+/.settings/
+
+# IntelliJ IDEA files
+/.idea/
+*.iml
+*.iws
+*.ipr
